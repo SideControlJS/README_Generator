@@ -1,9 +1,9 @@
 # README Generator
 
-![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-This application uses node.js, npm, JavaScript, JSON, and inquirer to build out a project REAME file.
+A README generator that allows users to answer prompts to build their project README.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,10 +14,10 @@ This application uses node.js, npm, JavaScript, JSON, and inquirer to build out 
 * [Questions](#questions)
 
 ## Installation
-This app requires node.js, npm, and inquirer.
+You'll need to have node.js, use inquirer, and npm.
 
 ## Usage
-Run 'node index.js' to start the app, follow the prompts to build out your project README file.
+in the terminal, run "node index.js" to start the app, and answer the promts.
 
 ## License
 This project is covered under the MIT license.
