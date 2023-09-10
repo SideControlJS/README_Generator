@@ -1,10 +1,10 @@
-# README Generator 
-    
-    ![Github license](https://img.shields.io/badge/license-undefined-blue.svg)
+# README Generator
+
+    ![Github license](https://img.shields.io/badge/licenseMIT-blue.svg)
 
 ## Description
 
-    This application uses node.js, npm, JavaScript, JSON, and inquirer to build out a project REAME file. 
+    This application uses node.js, npm, JavaScript, JSON, and inquirer to build out a project REAME file.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@
 
 ## License
 
-    This project is covered under the undefined license.
+    This project is covered under the MIT license.
 
 ## Contributing
 

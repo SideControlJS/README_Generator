@@ -29,9 +29,9 @@ const questions = [
     },
 
     {
-        type: 'checkbox',
-        name: 'License',
-        message: 'Select which license you used from these choices: ',
+        type: 'list',
+        name: 'license',
+        message: 'Select which license you used from this list: ',
         choices: ['MIT', 'Creative Commons license family', 'Mozilla Public License 2.0', 'none']
     },
 
