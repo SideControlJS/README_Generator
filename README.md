@@ -1,9 +1,10 @@
 # README Generator
 
-    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-A README generator that allows users to answer prompts to build their project README.
+A project README file generator using JavaScript, JSON, npm, and inquirer.
+![Link to Video Walkthrough Demo](https://url.com)
 
 ## Table of Contents
 * [Installation](#installation)
@@ -14,10 +15,10 @@ A README generator that allows users to answer prompts to build their project RE
 * [Questions](#questions)
 
 ## Installation
-You'll need to have node.js, use inquirer, and npm.
+You will need node.js, npm, and inquirer to run the app.
 
 ## Usage
-in the terminal, run "node index.js" to start the app, and answer the promts.
+In your terminal you'll run "node index.js" to start the app, and answer the prompts.
 
 ## License
 This project is covered under the MIT license.

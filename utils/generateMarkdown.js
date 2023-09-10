@@ -1,7 +1,9 @@
+const videoLink = "https://url.com"
+
 //function that returns license badge
 function renderBadge(license) {
     if (license !== "none") {
-        return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
     }
     return "";
 }
@@ -11,10 +13,11 @@ function renderBadge(license) {
 function generateMarkdown(data) {
     return `# ${data.title}
 
-    ${renderBadge(data.license)}
+${renderBadge(data.license)}
 
 ## Description
 ${data.description}
+![Link to Video Walkthrough Demo](${videoLink})
 
 ## Table of Contents
 * [Installation](#installation)
