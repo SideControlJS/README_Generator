@@ -1,6 +1,6 @@
 # README Generator
 
-    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
+![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 A README generator that allows users to answer prompts to build their project README.
