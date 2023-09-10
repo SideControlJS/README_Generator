@@ -1,18 +1,23 @@
 //function that returns license badge
-
+function renderBadge(license) {
+    if (license !== "none") {
+        return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
+    }
+    return "";
+}
 
 
 //function to generate Markdown for README
 function generateMarkdown(data) {
     return `# ${data.title}
     
-    ![License](https://img.shields.io/badge/licenses-${data.license}-blue)
+    ${renderBadge(data.license)}
 
-    ## Description
+## Description
 
     ${data.description}
 
-    ## Table of Contents
+## Table of Contents
 
     * [Installation](#installation)
     * [Usage](#usage)
@@ -21,29 +26,31 @@ function generateMarkdown(data) {
     * [Tests](#tests)
     * [Questions](#questions)
 
-    ## Installation
+## Installation
 
     ${data.installation}
 
-    ## Usage
+## Usage
 
     ${data.usage}
 
-    ## License
+## License
 
     This project is covered under the ${data.license} license.
 
-    ## Contributing
+## Contributing
 
     ${data.contributing}
 
-    ## Tests
+## Tests
 
     ${data.tests}
 
-    ## Questions
+## Questions
 
     For additional information, you can visit my [GitHub profile] (https://github.com/${data.github})
     or you can reach out to me at ${data.email} for more questions.
     `;
 }
+
+module.exports = generateMarkdown;

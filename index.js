@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-
+const generateMarkdown = require("./utils/generateMarkdown.js")
 
 
 const questions = [
@@ -18,12 +18,6 @@ const questions = [
 
     {
         type: 'input',
-        name: 'Table of Contents',
-        message: 'Please provide a table of contents if needed: ',
-    },
-
-    {
-        type: 'input',
         name: 'installation',
         message: 'Provide installation details for the app: ',
     },
@@ -35,9 +29,10 @@ const questions = [
     },
 
     {
-        type: 'input',
+        type: 'checkbox',
         name: 'License',
-        message: 'What license was used for this app?: ',
+        message: 'Select which license you used from these choices: ',
+        choices: ['MIT', 'Creative Commons license family', 'Mozilla Public License 2.0', 'none']
     },
 
     {
@@ -48,9 +43,10 @@ const questions = [
 
     {
         type: 'input',
-        name: 'Tests',
-        message: 'Were any tests conduncted? If so, what tests?: ',
+        name: 'github',
+        message: 'Provide your github username',
     },
+
 ];
 
 //function to initialize the app
