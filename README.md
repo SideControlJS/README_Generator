@@ -3,7 +3,7 @@
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
-A project README file generator using JavaScript, JSON, npm, and inquirer.
+A project README file generator to allow users to make README files more efficiently.
 ![Link to Video Walkthrough Demo](https://url.com)
 
 ## Table of Contents
@@ -15,16 +15,16 @@ A project README file generator using JavaScript, JSON, npm, and inquirer.
 * [Questions](#questions)
 
 ## Installation
-You will need node.js, npm, and inquirer to run the app.
+You will need node.js, npm, and use inquirer.
 
 ## Usage
-In your terminal you'll run "node index.js" to start the app, and answer the prompts.
+In your terminal, run 'node index.js' to start then app. Then, answer the prompts.
 
 ## License
 This project is covered under the MIT license.
 
 ## Contributing
-Send me a message!
+Please feel free to send me a messsage! You will need to clone the repo, make changes, then submit a PR.
 
 ## Questions
 For additional information, you can visit my ![GitHub profile](https://github.com/SideControlJS)
