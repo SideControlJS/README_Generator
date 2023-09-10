@@ -1,0 +1,27 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "A README Generator App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SideControlJS/README_Generator.git"
+  },
+  "keywords": [
+    "README",
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Jesse Lare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SideControlJS/README_Generator/issues"
+  },
+  "homepage": "https://github.com/SideControlJS/README_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
