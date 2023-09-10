@@ -1,4 +1,4 @@
-const videoLink = "https://url.com"
+const videoLink = "https://watch.screencastify.com/v/0fn2rodILFIDrHPt1Z7L"
 
 //function that returns license badge
 function renderBadge(license) {
@@ -17,7 +17,8 @@ ${renderBadge(data.license)}
 
 ## Description
 ${data.description}
-![Link to Video Walkthrough Demo](${videoLink})
+
+![Video Walkthrough Demo](${videoLink})
 
 ## Table of Contents
 * [Installation](#installation)

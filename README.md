@@ -4,7 +4,7 @@
 
 ## Description
 A project README file generator to allow users to make README files more efficiently.
-![Link to Video Walkthrough Demo](https://url.com)
+![Link to Video Walkthrough Demo](https://drive.google.com/file/d/1yI8DLI49sR7Sx7bDXhC9HuEbl8CuWEd4/view)
 
 ## Table of Contents
 * [Installation](#installation)
