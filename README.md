@@ -1,6 +1,6 @@
 # README Generator
 
-    ![Github license](https://img.shields.io/badge/licenseMIT-blue.svg)
+    ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Description
 
@@ -29,14 +29,10 @@
 
 ## Contributing
 
-    undefined
-
-## Tests
-
-    undefined
+    Send me a message!
 
 ## Questions
 
-    For additional information, you can visit my [GitHub profile] (https://github.com/SideControlJS)
-    or you can reach out to me at undefined for more questions.
+    For additional information, you can visit my ![GitHub profile](https://github.com/SideControlJS)
+    or you can reach out to me at twelvedust@outlook.com for more questions.
     

@@ -42,13 +42,9 @@ function generateMarkdown(data) {
 
     ${data.contributing}
 
-## Tests
-
-    ${data.tests}
-
 ## Questions
 
-    For additional information, you can visit my [GitHub profile] (https://github.com/${data.github})
+    For additional information, you can visit my ![GitHub profile](https://github.com/${data.github})
     or you can reach out to me at ${data.email} for more questions.
     `;
 }
